@@ -8,6 +8,7 @@ function Navbar() {
       <Logo />
      
 
+
       <div style={styles.navLinks}>
         <Link style={styles.link} to="/">Home</Link>
         <Link style={styles.link} to="/about">About</Link>
