@@ -1,0 +1,72 @@
+.contact-container {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1513364776144-60967b0f800f");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  width: 400px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.contact-card h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.9;
+}

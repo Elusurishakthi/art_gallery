@@ -1,0 +1,21 @@
+.category-container {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1513364776144-60967b0f800f");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.category-title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}

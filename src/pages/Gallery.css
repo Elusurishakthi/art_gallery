@@ -1,0 +1,68 @@
+.gallery-container {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1541961017774-22349e4a1262");
+  /* Artistic painting background */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.gallery-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+.gallery-title {
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.category-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  transition: 0.4s ease;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+}
+
+.category-card h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.explore-btn:hover {
+  transform: scale(1.1);
+}
