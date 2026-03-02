@@ -1,10 +1,31 @@
 .category-container {
+  position: relative;
   min-height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1513364776144-60967b0f800f");
   background-size: cover;
   background-position: center;
   padding: 50px 20px;
   text-align: center;
+  overflow: hidden;
+}
+
+/* Dark overlay */
+.category-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity here */
+  z-index: 0;
+}
+
+/* Make content appear above overlay */
+.category-title,
+.category-grid {
+  position: relative;
+  z-index: 1;
 }
 
 .category-title {

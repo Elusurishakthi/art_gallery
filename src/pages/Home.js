@@ -2,7 +2,11 @@ import React from "react";
 import artData from "../data/ArtData";
 import ArtCard from "../components/ArtCard";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
+// <Link to="/gallery">
+//   <button>Explore Arts</button>
+// </Link>
 
 
 function Home() {
@@ -17,6 +21,9 @@ function Home() {
               Celebrating Creativity, Culture, and Expression Across
               Traditional & Modern Art Forms.
             </p>
+            <Link to="/gallery">
+  
+
             <button
               onClick={() =>
                 window.scrollTo({ top: 700, behavior: "smooth" })
@@ -24,6 +31,7 @@ function Home() {
             >
               Explore Arts
             </button>
+            </Link>
           </div>
         </div>
       </div>

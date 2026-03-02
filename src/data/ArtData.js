@@ -1,9 +1,31 @@
+
+import madhubani from "../assets/madhubani.jpg";
+import warli from "../assets/warli.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
+import madhubani from "../assets/madhubani.jpg";
 const artData = [
   {
     id: 1,
     name: "Madhubani Art",
     category: "Painting",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Madhubani_painting.jpg",
+    image: madhubani,
     description: "Traditional folk art from Bihar known for intricate patterns and mythological themes.",
     categoryId: 1,
   },
@@ -11,7 +33,7 @@ const artData = [
     id: 2,
     name: "Warli Art",
     category: "Painting",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/75/Warli_painting.jpg",
+    image: warli,
     description: "Tribal art from Maharashtra using geometric shapes to depict daily life.",
     categoryId: 1,
   },
@@ -141,7 +163,7 @@ const artData = [
     category: "Craft",
     image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pottery_wheel.jpg",
     description: "Craft of shaping clay into useful and decorative objects.",
-    categoryId: 4
+    categoryId: 5
   },
   {
     id: 19,
@@ -149,7 +171,7 @@ const artData = [
     category: "Digital Art",
     image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Digital_artwork.jpg",
     description: "Modern art created using digital tools and software.",
-    categoryId: 5
+    categoryId: 6
   },
   {
     id: 20,
@@ -157,7 +179,7 @@ const artData = [
     category: "Digital Art",
     image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Animation_process.jpg",
     description: "Art of creating moving visuals using frames and digital techniques.",
-     categoryId: 5
+     categoryId: 6
   }
 ];
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -15,7 +16,9 @@ function About() {
             From classical traditions to modern digital expressions, we aim to
             connect people with the rich cultural heritage of humanity.
           </p>
+           <Link to="/gallery">
           <button className="explore-btn">Explore Gallery</button>
+          </Link>
         </div>
       </div>
     </div>

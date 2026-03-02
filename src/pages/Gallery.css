@@ -1,7 +1,7 @@
+/* Background Section */
 .gallery-container {
   min-height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1541961017774-22349e4a1262");
-  /* Artistic painting background */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -13,6 +13,7 @@
   padding: 60px 20px;
 }
 
+/* Title */
 .gallery-title {
   text-align: center;
   color: white;
@@ -21,6 +22,7 @@
   letter-spacing: 2px;
 }
 
+/* Grid */
 .category-grid {
   display: flex;
   flex-wrap: wrap;
@@ -28,38 +30,52 @@
   gap: 40px;
 }
 
+/* Card */
 .category-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
   width: 300px;
-  height: 200px;
   border-radius: 15px;
-  text-align: center;
-  color: white;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  transition: 0.4s ease;
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
 }
 
 .category-card:hover {
   transform: translateY(-10px);
 }
 
-.category-card h2 {
-  font-size: 20px;
+/* Image Top */
+.category-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Content Section */
+.category-content {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.category-content h2 {
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
+/* Button */
 .explore-btn {
-  padding: 10px 25px;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 30px;
   border: none;
-  border-radius: 25px;
+  cursor: pointer;
   background: linear-gradient(45deg, #ff7e5f, #feb47b);
   color: white;
-  cursor: pointer;
   transition: 0.3s ease;
 }
 
