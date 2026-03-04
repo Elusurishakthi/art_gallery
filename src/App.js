@@ -13,6 +13,7 @@ import Signup from "./pages/SignUp";
 import ArtDetails from "./pages/ArtDetails";
 import CategoryPage from "./pages/CategoryPage";
 
+
 function App() {
   return (
     <Router>
