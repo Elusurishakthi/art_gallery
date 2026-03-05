@@ -22,7 +22,7 @@
 //               Traditional & Modern Art Forms.
 //             </p>
 //             <Link to="/gallery">
-  
+
 
 //             <button
 //               onClick={() =>

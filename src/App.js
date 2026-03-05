@@ -12,7 +12,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/SignUp";
 import ArtDetails from "./pages/ArtDetails";
 import CategoryPage from "./pages/CategoryPage";
-
+import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
   return (
@@ -30,7 +30,20 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/art/:id" element={<ArtDetails />} />
             <Route path="/category/:id" element={<CategoryPage />} />
-            
+             <Route path="/" element={<Home />} />
+
+        <Route path="/gallery" element={<Gallery />} />
+
+        <Route path="/login" element={<Login />} />
+
+        <Route
+          path="/art/:id"
+          element={
+            <PrivateRoute>
+              <ArtDetails />
+            </PrivateRoute>
+          }
+        />
           </Routes>
         </div>
 
